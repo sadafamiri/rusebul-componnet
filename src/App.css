@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+}
+
+
+.Badge {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* card */
+.main-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 40px 50px;
+  border-radius: 20px;
+  width: 480px;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+
+.main-card h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+/* Row */
+.badge-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.badge-row:last-child {
+  border-bottom: none;
+}
+
+/* label */
+.badge-label {
+  font-size: 0.9rem;
+  color: #f4f4f4;
+  letter-spacing: 1px;
+}
+
+/* value*/
+.badge-value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
