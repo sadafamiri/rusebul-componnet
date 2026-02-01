@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='Badge'>
-      <div className='main-card'>
+      <div className='badge-card'>
     <h1>Assignment Week-1</h1>
     <Badge label="Assignment" value="First"/>
     <Badge label="corse" value="React"/>
