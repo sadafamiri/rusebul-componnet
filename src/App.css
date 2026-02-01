@@ -1,15 +1,11 @@
-
-
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: white;
-    max-width: 1280px;
-  margin: 0 auto;
-  padding-left: 20rem;
   text-align: center;
 }
+
 
 
 .Badge {
@@ -17,8 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
+
 
 /* card */
 .badge-card {
@@ -27,10 +23,11 @@ body {
   backdrop-filter: blur(12px);
   padding: 40px 50px;
   border-radius: 20px;
-  width: 480px;
-  
+  width: 100%;
+  max-width: 480px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
+
 
 
 .badge-card h1 {
@@ -66,3 +63,24 @@ body {
   font-weight: bold;
   color: #38bdf8;
 }
+
+@media (max-width: 640px) {
+  .badge-card {
+    padding: 24px 20px;
+  }
+
+  .badge-row {
+  
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .badge-label {
+    font-size: 0.8rem;
+  }
+
+  .badge-value {
+    font-size: 1rem;
+  }
+}
+
